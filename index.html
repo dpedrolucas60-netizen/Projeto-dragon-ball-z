@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COPIA SITE PERSONAGENS DRAGON BALL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="musica-dbz" loop>
+    <source src="audio/dragonballz.mp3" type="audio/mpeg">
+</audio>
+    <header><b>PERSONAGENS DRAGON BAL Z</b></header> 
+    <div class="todos">
+     
+    
+
+    <div>
+        <label for="genero"><b>GENERO:</b></label> 
+        <input type="radio"  value="ambos" name="genero" checked>ambos
+        <input type="radio"  value="Male" name="genero">homem
+        <input type="radio"  value="Female" name="genero"> feminino
+
+    </div>
+
+            <div>
+             <b>RAÇA:</b>
+        <select  id="race">
+        <option value="">todas</option>
+        <option value="Saiyan">sayajin</option>
+        <option value="Human">humanos</option>
+        <option value="Android">androids</option>
+        <option value="Namekian">NAMEKUZEDIM</option>
+        <option value="Frieza Race">RACA FREEZA</option>
+        <option value="God">DEUSES</option>
+        <option value="Angel">ANJOS</option>
+        <option value="Nucleico benigno">KAIOSHIS</option>
+        
+        </select> </div>
+
+        <div class="pesquisa">
+            <input type="text" placeholder="digite um personagem" id="name">
+    <button onclick="buscarpersonagens()">BUSCAR PERSONAGEM</button><br>
+   
+    </div>
+
+
+    <div class="personagens">
+        <div id="todospersonagens">
+            
+        </div>
+    </div>
+        
+    
+   
+    <script src="index.js"></script>
+    <div class="rodapé">
+       <footer>
+    <p>NOME ALUNO:Pedro Lucas dos santos</p>
+    <p>PROFESSOR:HENRIQUE NETO</p>
+    
+    </footer>
+    </div>
+    
+</body>
+</html>
